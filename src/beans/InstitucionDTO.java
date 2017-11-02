@@ -7,6 +7,9 @@ public class InstitucionDTO
 	private String caracteristicas;
 	private String direccion;
 	private String telefono;
+	private String comentarios;
+	private int calificacion;
+	
 	public int getCodigo() {
 		return codigo;
 	}
@@ -36,5 +39,16 @@ public class InstitucionDTO
 	}
 	public void setTelefono(String telefono) {
 		this.telefono = telefono;
+	}public String getComentarios() {
+		return comentarios;
+	}
+	public void setComentarios(String comentarios) {
+		this.comentarios = comentarios;
+	}
+	public int getCalificacion() {
+		return calificacion;
+	}
+	public void setCalificacion(int calificacion) {
+		this.calificacion = calificacion;
 	}
 }
