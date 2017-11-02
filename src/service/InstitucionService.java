@@ -2,7 +2,10 @@ package service;
 
 import java.util.List;
 
+import beans.ComentariosDTO;
 import beans.InstitucionDTO;
+import beans.InstitucionNombresDTO;
+import beans.ReporteComentCalificacionDTO;
 import dao.DAOFactory;
 import interfaces.InstitucionDAO;
 
