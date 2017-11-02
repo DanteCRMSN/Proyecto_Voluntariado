@@ -35,4 +35,31 @@ public class InstitucionService
 	{
 		return objIns.eliminarInstitucion(cod);
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public List<ReporteComentCalificacionDTO> listarComentariosCaliInstitucion()
+	{
+		return objIns.listarComentariosCalificacion();
+	}
+	public int registraComentarios(ComentariosDTO obj)
+	{
+		return objIns.registrarComentariosInstitucion(obj);
+	}
+	public List<InstitucionNombresDTO> listaInstitucionNombre()
+	{
+		return objIns.listarInstitucionNombres();
+	}
+
+	public ComentariosDTO buscaInstitucionParaCalificar(int cod)
+	{
+		return objIns.buscarInstitucionCOMENTARIOS(cod);
+	}
 }
